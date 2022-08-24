@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima&display=swap');
+
+
+body, html {
+    margin: 0;
+    font: 16px "OldLondon.tff";
+    color: #777;
+    height: 100%;
+}
+
+.conteudo {
+    color: #777;
+    background-color: #f2f2f2;
+    text-align: justify;
+    padding: 50px 80px;
+    
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.caixa1, .caixa2, .caixa3, .caixa4{
+    height: 100%;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.caixa1{
+    background-image: url(/img/1.jpg);
+}
+
+.caixa2{
+    background-image: url(/img/2.png);
+}
+
+.caixa3 {
+    background-image: url(/img/3.jpg)
+}
+
+.caixa4 {
+    background-image: url(/img/Skyrim.jpg)
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    font-family: "OldLondon.tff";
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.logo:hover {
+    letter-spacing: 0.4rem;
+    color: yellow;
+    opacity: 0.9;
+}
+
+
+.conteudo-titulo  {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s;
+    cursor: pointer;
+   
+}
+
+.conteudo-titulo span.titulo  {
+    color: #fff;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    transition: all 0.3s;
+    
+}
+
+.introducao {
+    position: absolute;
+    left: 0;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s;
+    
+    
+}
+
+.introducao .texto {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 18px;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+
+
+.topico span {
+    transition: all 0.3s;
+    border-radius:8px ;
+    
+}
+
+.topico span:hover {
+    color: #000000;
+    background-color: antiquewhite;
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    height: 6%;
+    width: 100%;
+    text-align: justify;
+    text-transform: uppercase;
+    font-weight: bold
+}
+
+header ul  {
+    list-style: none;
+    display: flex;
+    height: 100%;   
+}
+
+
+header ul li a {
+    text-decoration: none;
+    border-radius: 10px;
+    color: #fff;
+    margin-left: 2.5rem;
+    padding:10px 15px;   
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+    transition: all 0.3s; 
+}
+
+header ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    opacity: 0.9;
+    border-radius: 10px;
+    letter-spacing:0.4rem ;
+    font-weight: 700;
+}
+
+
+.rodape {
+    text-align: center;    
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+}
+
+
+
